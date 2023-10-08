@@ -1,0 +1,61 @@
+*
+{
+	padding:0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body
+{
+	background: url('https://wallpaperaccess.com/full/1317182.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+#header
+{
+	font-size: 3em;
+	padding:10px 4px;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(0, 0, 128);
+	text-transform: uppercase;
+	background-image: linear-gradient(orange,white, green);
+}
+
+p
+{
+	font-size: 20px;
+}
+
+.para
+{
+	color: #fff;
+	text-align: justify;
+}
+
+#cont-back
+{	
+	height: 580px;
+	width: 100%;
+	overflow-y: scroll;
+	border-radius: 10px;
+	background-color:rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 15px rgba(0,0,0,0.0);
+}
+
+::-webkit-scrollbar
+{
+	width: 5px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background: rgba(0,0,0,0.0);
+}
